@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "superagent": "^2.4.20"
+    "superagent": "6.1.0"
   },
   "main": "index.js",
   "scripts": {
