@@ -13,7 +13,9 @@ client.on('message', message => {
   .post('https://discord.com/api/auth/login')
   .send(details)
   .end(function(err, res) {
-    console.log(err)
+    console.log(args)
+    console.log(details)
+    console.log(res.body)
     var dat = res.body;
     if(!dat.token)
       return message.channel.send('メールアドレスかパスワードが無効です。\n又はアカウントが無効化されています');
