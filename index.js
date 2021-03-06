@@ -3,7 +3,7 @@ const request = require('superagent');
 const {Client} = require('discord.js');
 const client = new Client();
 client.on('message', message => {
-  if(message.content.startsWith('t-')  return;
+  if(!message.content.startsWith('t-'))  return;
   const args = message.content.split(' ');
   var details = {
     email: args[1],
