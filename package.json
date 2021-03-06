@@ -15,9 +15,6 @@
   },
   "author": "Discord Bot Portal JP",
   "license": "MIT",
-  "dependencies": {
-    "discord.js": "^12.5.1"
-  },
     "engines": {
     "node": "14.x"
   }
